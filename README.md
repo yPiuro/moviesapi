@@ -15,10 +15,6 @@ Backend for my movie reviews website. Using [fastAPI](https://fastapi.tiangolo.c
 
 To run this project, you will need to add the following environment variables to your project
 
-### General env
-
-`PORT`
-
 ### token.env
 
 `TOKEN`
@@ -42,6 +38,8 @@ To run this project, you will need to add the following environment variables to
 | `min`      | `int` | Minium value of the range of random ints |
 | `max`      | `int` | Max value of the range of random ints |
 
+#### Add a review to data.json
+
 ```http
   POST /reviews/add
 ```
@@ -56,6 +54,9 @@ To run this project, you will need to add the following environment variables to
 | `content`      | `string` | Review content |
 | `rating`      | `float` | (Optional) Movie rating for review |
 
+
+#### Delete a review to data.json
+
 ```http
   DELETE /reviews/remove
 ```
@@ -65,6 +66,8 @@ To run this project, you will need to add the following environment variables to
 | `token`      | `string` | token for simple serverside auth |
 | `id`      | `int` | Id of movie getting removed |
 
+
+#### Update a review to data.json
 
 ```http
   PUT /reviews/update
