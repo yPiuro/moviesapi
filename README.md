@@ -103,7 +103,7 @@ To deploy this project locally run
 Make sure to edit the main.py to set a custom port before building.
 
 ```bash
-  docker build --tag python-docker
+  docker build --tag moveireviewsapi-docker
 ```
 
 ## Authors
