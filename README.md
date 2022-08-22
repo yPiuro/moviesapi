@@ -1,8 +1,8 @@
 
 # Movie Reviews API - fastAPI
-Backend for my movie reviews. using [fastAPI](https://fastapi.tiangolo.com/)
+Backend for my movie reviews website. Using [fastAPI](https://fastapi.tiangolo.com/)
 # Links
-[Website Link](https://movies.piuroprauxy.ml/) | [Website Source](https://github.com/yPiuro/moviereviews) | [API Link](https://api.piuroprauxy.ml/)
+[Website Link](https://movies.piuroprauxy.ml/) [API Link](https://api.piuroprauxy.ml/) [Website Source](https://github.com/yPiuro/moviereviews)
 
 ## Environment Variables
 
