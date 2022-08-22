@@ -88,12 +88,12 @@ To deploy this project locally run
   pip install -r requirements.txt && python main.py
 ```
 
-## Deployemnet
+## Docker
 
-Dockerfile coming soon...
+Make sure to edit the main.py to set a custom port before building.
 
 ```bash
-  COMING SOON
+  docker build --tag python-docker
 ```
 
 ## Authors
