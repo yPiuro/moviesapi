@@ -86,11 +86,16 @@ To run this project, you will need to add the following environment variables to
 
 # Requirements
 
-Python 3.10
+## Non-docker requirements.
 
-[pip requirements](https://raw.githubusercontent.com/yPiuro/moviesapi/main/requirements.txt)
+### Python 3.10
 
-## Run locally
+
+## Docker requirements.
+
+### Docker
+
+# Run locally
 
 To deploy this project locally run
 
@@ -98,7 +103,7 @@ To deploy this project locally run
   pip install -r requirements.txt && python main.py
 ```
 
-## Docker
+# Docker deployment
 
 Make sure to edit the main.py to set a custom port before building.
 
